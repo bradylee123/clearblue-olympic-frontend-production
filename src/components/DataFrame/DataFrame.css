@@ -1,0 +1,16 @@
+.DataFrame {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+  border-style: solid;
+  box-shadow: 2 4px 5px #aaa;
+  border: 1px solid #eee;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    .DataFrame {
+        width: 1000px;
+    }
+}

@@ -1,0 +1,24 @@
+.InputData {
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 2px #aaa;
+    border: 1px solid #eee;
+    padding: 30px 10px 10px 10px;
+    box-sizing: border-box;
+    background-color: #00305B;
+    margin-top: 30px;
+    margin-bottom: 250px;
+}
+
+@media (min-width: 600px) {
+    .InputData {
+        width: 300px;
+    }
+}
+
+.dropdown {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

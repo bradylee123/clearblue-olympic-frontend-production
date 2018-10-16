@@ -1,0 +1,11 @@
+.MedalGraph {
+  text-align: center;
+  margin: 30px;
+  height: 500px;
+  width: 625px;
+  border-style: solid;
+  box-shadow: 0 4px 4px #aaa;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
