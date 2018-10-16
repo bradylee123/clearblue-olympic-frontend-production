@@ -31,7 +31,7 @@ class InputData extends Component {
     }
 
     updateGoldMedalData(formData) {
-      axios.get('/goldMedal', {
+      axios.get('https://clearblue-olympic.herokuapp.com/goldMedal', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -55,7 +55,7 @@ class InputData extends Component {
     }
 
     updateSilverMedalData(formData) {
-      axios.get('/silverMedal', {
+      axios.get('https://clearblue-olympic.herokuapp.com/silverMedal', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -79,7 +79,7 @@ class InputData extends Component {
     }
 
     updateBronzeMedalData(formData) {
-      axios.get('/bronzeMedal', {
+      axios.get('https://clearblue-olympic.herokuapp.com/bronzeMedal', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -103,7 +103,7 @@ class InputData extends Component {
     }
 
     updateTopSportData(formData) {
-      axios.get('/topSport', {
+      axios.get('https://clearblue-olympic.herokuapp.com/topSport', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -125,7 +125,7 @@ class InputData extends Component {
     }
 
     updateAllSportsMedalData(formData) {
-      axios.get('/allSportsMedal', {
+      axios.get('https://clearblue-olympic.herokuapp.com/allSportsMedal', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -143,7 +143,7 @@ class InputData extends Component {
     }
 
     updateTopAthleteData(formData) {
-      axios.get('/topAthlete', {
+      axios.get('https://clearblue-olympic.herokuapp.com/topAthlete', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -165,7 +165,7 @@ class InputData extends Component {
     }
 
     updateBestCountryData(formData) {
-      axios.get('/bestCountry', {
+      axios.get('https://clearblue-olympic.herokuapp.com/bestCountry', {
         params: {
           season: formData.seasonOption,
           sex: formData.genderOption
@@ -186,7 +186,7 @@ class InputData extends Component {
     }
 
     updateAgeData(formData) {
-      axios.get('/ageDistribution', {
+      axios.get('https://clearblue-olympic.herokuapp.com/ageDistribution', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,
@@ -210,7 +210,7 @@ class InputData extends Component {
     }
 
     updateData(formData) {
-      axios.get('/data', {
+      axios.get('https://clearblue-olympic.herokuapp.com/data', {
         params: {
           season: formData.seasonOption,
           team: formData.teamOption,

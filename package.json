@@ -67,7 +67,6 @@
     "node": "10.10.0",
     "npm": "5.6.0"
   },
-  "proxy": "https://clearblue-olympic.herokuapp.com/",
   "eslintConfig": {
     "extends": "react-app"
   },

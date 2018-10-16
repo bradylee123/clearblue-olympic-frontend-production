@@ -19,7 +19,7 @@ class OlympicAnalyzer extends Component {
     super(props);
 
     const teams = [];
-    axios.get('http://localhost:5000/team')
+    axios.get('https://clearblue-olympic.herokuapp.com/team')
     .then(res => {
       if (Array.isArray(res.data) && res.data.length) {
         res.data.map((record) => {
