@@ -124,8 +124,12 @@ class OlympicAnalyzer extends Component {
   setMedalPercentage() {
     let medalPercentage;
     if (this.props.all_sports_medal !== 0) {
-      medalPercentage = Math.round(this.props.top_sport_medal / this.props.all_sports_medal * 100) + '%';
+      medalPercentage = Math.round(this.props.top_sport_medal / this.props.all_sports_medal * 100);
     }
+    if (!isFinite(medalPercentage)) {
+      medalPercentage = 0;
+    }
+    medalPercentage += '%';
     if (this.state.medalPercentage !== medalPercentage) {
       this.setState({medalPercentage: medalPercentage});
     }
